@@ -1,0 +1,85 @@
+/* Center body content */
+
+body {
+  background: rgb(0, 0, 0);
+  font: normal 15pt Arial;
+}
+
+header {
+  color: rgb(100, 103, 171);
+  text-align: center;
+}
+
+h1 {
+  color: rgb(244, 221, 29);
+  text-align: center;
+  font-size: 70px;
+  font-family: "StarWarsFont";
+  /*  remove margin from the h1 element */
+  margin: 0;
+}
+
+h2 {
+  color: hwb(0 78% 18%);
+  font-size: 18px;
+}
+
+p {
+  font-size: 14px;
+  color: rgb(255, 255, 255);
+  padding: 0px;
+  margin: 5px;
+}
+
+ul {
+  padding-left: 0;
+  list-style-position: inside;
+}
+
+li {
+  list-style-type: none;
+  text-align: center;
+  color: rgb(255, 255, 255);
+  padding: 5px;
+  font-size: 14px;
+}
+
+.list-item {
+  font-size: 18px;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-image: url(assets/background-main.jpeg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(246, 243, 243, 0.277);
+}
+.main-character {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(14, 14, 14, 0.277);
+}
+
+a {
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+}
+
+@font-face {
+  font-family: "StarWarsFont";
+  src: url("./assets/fonts/starjhol-webfont.woff") format("woff");
+}
